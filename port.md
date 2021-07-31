@@ -18,3 +18,5 @@
 ### Registered 포트 – 조금은 유명한 포트들의 집합
 ![07-dynamic](https://user-images.githubusercontent.com/51018201/127729657-cd2adfd0-16de-4a13-b523-d4f8e1456ffd.jpg)
 ### Dynamic 포트 – 일반 사용자는 이 중 사용한다
+## 프로그램의 연결 정보
+### netsat -ano를 치면 현재 포트 활성 여부를 나타내는 활성 연결 테이블을 보여준다
