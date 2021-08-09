@@ -1,7 +1,9 @@
 # HTTP
+
 ## HTTP 요청 프로토콜
 - 요청하는 방식을 정의하고 클라이언트의 정보를 담는다  
-- 영어와 특수문자로 작성  
+- 영어와 특수문자로 작성 
+ 
 ## HTTP 요청 프로토콜의 구조
 ![http_request_protocol](https://user-images.githubusercontent.com/51018201/128588852-f9227b86-5a44-4de0-bb5f-dc59a920e849.jpg)
 ![http_request_protocol_ex](https://user-images.githubusercontent.com/51018201/128588851-e344fb9d-6a54-4529-9c57-63cb4206c374.jpg)
@@ -14,9 +16,9 @@
     -> GET과 POST를 왜 나눠놨는가?  
       - GET 방식은 데이터를 보낼 때 uri부분에 데이터를 포함시켜 보낸다(노출되어도 되는 데이터)
       - POST 방식은 데이터를 보낼 때 body부분에 데이터를 포함시켜 보낸다(중요한 데이터)
-    ![http_uri_structure](https://user-images.githubusercontent.com/51018201/128588849-b1e4f31c-b854-4a4f-addd-2c1f60228745.jpg)
 
   - URI(Uniform Resource Identifier) : 인터넷상에서 특정 자원(파일)을 나타내는 유일한 주소
+  ![http_uri_structure](https://user-images.githubusercontent.com/51018201/128588849-b1e4f31c-b854-4a4f-addd-2c1f60228745.jpg)
 	- URI의 구조   
 		  - 스키마 : http, https, ftp 등 7계층 프로토콜  
 		  - 포트번호 : 지정하지 않고 웹 브라우저가 알아서 지정(80, 443)  
